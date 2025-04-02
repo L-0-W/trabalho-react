@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom';
 import { CardWrapper, CoverImage, BookInfo, Title, Author, Rating } from './BookCard.styles';
 
 const BookCard = ({ book }) => {
+
+  
   const { id, title, author, coverUrl, rating } = book;
 
   return (

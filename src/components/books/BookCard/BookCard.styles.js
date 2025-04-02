@@ -4,7 +4,6 @@ export const CardWrapper = styled.div`
   position: relative;
   width: 130px;
   transition: transform ${({ theme }) => theme.transitions.default};
-
   &:hover {
     transform: scale(1.02);
   }
