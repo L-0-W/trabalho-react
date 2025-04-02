@@ -1,6 +1,6 @@
 import React from 'react';
 import BookCard from '../BookCard/BookCard';
-import { GridContainer, EmptyState } from './Book.styles';
+import { GridContainer, EmptyState } from './BookGrid.styles';
 
 const BookGrid = ({ books }) => {
   if (!books || books.length === 0) {
