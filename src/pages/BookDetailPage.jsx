@@ -57,7 +57,7 @@ const BookDetailPage = () => {
     id,
     title: 'The Great Gatsby',
     author: 'F. Scott Fitzgerald',
-    coverUrl: 'https://via.placeholder.com/300x450?text=The+Great+Gatsby',
+    coverUrl: '../assets/react.svg',
     rating: '4.5',
     description: 'The story of decadence and excess, Gatsby explores darker aspects of the Jazz Age, including decadence, idealism, social upheaval, and excess. It creates a portrait of the Roaring Twenties that has been described as a cautionary tale regarding the American Dream.'
   };
